@@ -1,0 +1,28 @@
+{
+  "name": "abort-controller-webpack-failure-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack",
+    "test": "node build/main.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeswr/abort-controller-webpack-failure-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeswr/abort-controller-webpack-failure-nodejs/issues"
+  },
+  "homepage": "https://github.com/jeswr/abort-controller-webpack-failure-nodejs#readme",
+  "dependencies": {
+    "abort-controller": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^9.1.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
